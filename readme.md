@@ -1,2 +1,2 @@
-# Secure REST Application Using Jersey
+# Bootiful Development with Spring Boot and React
 Using this [guide](https://developer.okta.com/blog/2017/12/06/bootiful-development-with-spring-boot-and-react), I created REST endpoints with Spring MVC, configured Spring Boot to allow CORS, and created a React app to display its data.
