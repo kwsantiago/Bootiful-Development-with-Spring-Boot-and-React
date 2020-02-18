@@ -18,4 +18,12 @@ class App extends React.Component<{}, any> {
   }
 }
 
+componentDidMount() {
+  this.setState({isLoading: true});
+
+  fetch('http://localhost:8080/good-beers')
+    .then(response => response.json())
+    .then(data => this.setState({beers: data, isLoading: false}));
+}
+
 export default App;
